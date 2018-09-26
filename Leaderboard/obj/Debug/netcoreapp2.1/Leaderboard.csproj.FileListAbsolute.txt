@@ -1,0 +1,14 @@
+C:\Users\Tiina\source\Leaderboard\obj\Debug\netcoreapp2.1\Leaderboard.csprojAssemblyReference.cache
+C:\Users\Tiina\source\Leaderboard\obj\Debug\netcoreapp2.1\Leaderboard.csproj.CoreCompileInputs.cache
+C:\Users\Tiina\source\Leaderboard\obj\Debug\netcoreapp2.1\Leaderboard.RazorAssemblyInfo.cache
+C:\Users\Tiina\source\Leaderboard\obj\Debug\netcoreapp2.1\Leaderboard.RazorAssemblyInfo.cs
+C:\Users\Tiina\source\Leaderboard\obj\Debug\netcoreapp2.1\Leaderboard.AssemblyInfoInputs.cache
+C:\Users\Tiina\source\Leaderboard\obj\Debug\netcoreapp2.1\Leaderboard.AssemblyInfo.cs
+C:\Users\Tiina\source\Leaderboard\bin\Debug\netcoreapp2.1\Leaderboard.deps.json
+C:\Users\Tiina\source\Leaderboard\bin\Debug\netcoreapp2.1\Leaderboard.runtimeconfig.json
+C:\Users\Tiina\source\Leaderboard\bin\Debug\netcoreapp2.1\Leaderboard.runtimeconfig.dev.json
+C:\Users\Tiina\source\Leaderboard\bin\Debug\netcoreapp2.1\Leaderboard.dll
+C:\Users\Tiina\source\Leaderboard\bin\Debug\netcoreapp2.1\Leaderboard.pdb
+C:\Users\Tiina\source\Leaderboard\obj\Debug\netcoreapp2.1\Leaderboard.RazorTargetAssemblyInfo.cache
+C:\Users\Tiina\source\Leaderboard\obj\Debug\netcoreapp2.1\Leaderboard.dll
+C:\Users\Tiina\source\Leaderboard\obj\Debug\netcoreapp2.1\Leaderboard.pdb
