@@ -36,14 +36,20 @@ namespace Leaderboard
         public async Task<Player[]> GetAll()
         {
             List<Player> players = await _collection.Find(new BsonDocument()).ToListAsync();
-            //sort here
+            var sort = Builders<Player>.Sort.Descending("Score");
+            int limit = players.Count;
+            var cursor = _collection.Find(_=>true).Sort(sort).Limit(limit);
+            players = await cursor.ToListAsync();
             return players.ToArray();
         }
 
         public async Task<Player> GetPlayer(int placement)
         {
             List<Player> players = await _collection.Find(new BsonDocument()).ToListAsync();
-            //sort here
+            var sort = Builders<Player>.Sort.Descending("Score");
+            int limit = players.Count;
+            var cursor = _collection.Find(_=>true).Sort(sort).Limit(limit);
+            players = await cursor.ToListAsync();
             return players[placement];
         }
     }
