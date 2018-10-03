@@ -26,7 +26,7 @@ namespace Leaderboard.Controllers
             return _context.Create(player);
         }
         [HttpDelete]
-        [Route("")]
+        [Route("{id:guid}")]
         public Task<Player> DeletePlayer(Guid id){
             return _context.DeletePlayer(id);
         }
@@ -34,6 +34,11 @@ namespace Leaderboard.Controllers
         [Route("{place}")]
         public Task<Player> GetPlayer(int place){
             return _context.GetPlayer(place);
+        }
+        [HttpGet]
+        [Route("{name}")] 
+        public Task<Player> GetName(string name) {
+            return _context.GetName(name);
         }
     }
 }
