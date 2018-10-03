@@ -28,5 +28,8 @@ namespace Leaderboard
         public Task<Player> GetPlayer(int placement){
             return _repository.GetPlayer(placement);
         }
+        public Task<Player> GetName(string name) {
+            return _repository.GetName(name);
+        }
     }
 }
