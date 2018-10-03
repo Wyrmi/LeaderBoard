@@ -10,5 +10,6 @@ namespace Leaderboard
         Task<Player[]> GetAll();
         Task<Player> DeletePlayer(Guid id);
         Task<Player> GetPlayer(int placement);
+        Task<Player> GetName(string name);
     }
 }
