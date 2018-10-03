@@ -52,5 +52,9 @@ namespace Leaderboard
             players = await cursor.ToListAsync();
             return players[placement];
         }
+        public async Task<Player> GetName(string name) {
+            FilterDefinition<Player> filter = Builders<Player>.Filter.Eq("Name",name);
+            return await _collection.Find(filter).FirstAsync();
+        }
     }
 }
